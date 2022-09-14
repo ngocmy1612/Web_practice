@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+:root {
+    --text-color: rgb(255, 94, 0);
+}
+h1 {
+    color: var(--text-color);
+}
+.box {
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    background-color: antiquewhite;
+}
+.box2 {
+    background-color: violet;
+}
+.box3 {
+    background-color: firebrick;
+}
+
+.box_1 {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
